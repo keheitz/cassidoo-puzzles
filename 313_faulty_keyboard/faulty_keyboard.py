@@ -1,7 +1,7 @@
-"""Module providing broken keyboard function"""
+"""Module providing faulty keyboard function"""
 vowels = ['a', 'e', 'i', 'o', 'u', 'y']
 def type_reverse_on_vowels(text):
-    """Reverses prior string on vowels"""
+    """Reverses preceding substring on vowels"""
     output = ""
     for letter in text:
         if letter in vowels:
