@@ -1,4 +1,4 @@
-name: Pylint
+name: Build Steps
 
 on: [push]
 
@@ -19,9 +19,13 @@ jobs:
         python -m pip install --upgrade pip
         pip install pylint
         pip install pytest
+        pip install coverage
     - name: Analysing the code with pylint
       run: |
         pylint $(git ls-files '*.py')
     - name: Running unit tests
       run: |
         pytest
+    - name: Get total test coverage
+      run: |
+        coverage report --format=total
