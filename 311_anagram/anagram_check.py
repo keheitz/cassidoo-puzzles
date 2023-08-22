@@ -1,6 +1,6 @@
 """Module to check if one string is an anagram of the other"""
-def is_anagram(s, t):
+def is_anagram(first,second):
     """Returns true if s is an anagram of t"""
-    if len(s) != len(t):
+    if len(first) != len(second):
         return False
-    return sorted(s) == sorted(t)
+    return sorted(first) == sorted(second)
