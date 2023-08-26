@@ -1,3 +1,5 @@
+"""Tests for checking exploded string"""
+
 from explode_string import explode_string
 
 def test_explode_string_with_whitespace():
