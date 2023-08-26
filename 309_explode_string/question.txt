@@ -1,0 +1,1 @@
+Given a string, separate it into groups of non-space equal characters, sorted.
