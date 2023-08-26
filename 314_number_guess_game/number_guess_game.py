@@ -28,5 +28,5 @@ class NumberGuessGame:
     def summarize(self):
         """Get game summary"""
         print(
-            f"player {self.player} has taken {self.turn_count} turns trying to guess a value of {self.max_val} or less"
+            f"{self.player} has taken {self.turn_count} turns to guess a val of {self.max_val} max"
         )

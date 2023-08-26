@@ -52,5 +52,5 @@ def test_summarize(mock_print):
     game.take_turn(game.target_val - 1)
     game.summarize()
     mock_print.assert_called_with(
-        f"player {game.player} has taken {game.turn_count} turns trying to guess a value of {game.max_val} or less"
+        f"{game.player} has taken {game.turn_count} turns to guess a val of {game.max_val} max"
     )
