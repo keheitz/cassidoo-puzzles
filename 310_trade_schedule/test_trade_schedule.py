@@ -1,4 +1,5 @@
 """Tests for identifying maximum profit for an ordered price schedule"""
+"""Tests for checking if schedule profit is correct"""
 from trade_schedule import find_maximum_profit
 
 def test_find_maximum_profit():
